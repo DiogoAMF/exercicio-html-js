@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "bungee", cursive;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(162, 191, 191);
+}
+
+.container {
+  margin: 10rem auto;
+  display: block;
+  max-width: 60rem;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  font-size: 2.6rem;
+}
+
+p {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 1.4rem;
+}
+
+input,
+button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  font-size: 1.6rem;
+}
+
+input {
+  font-family: "roboto", sans-serif;
+}
+
+#msg {
+  font-size: 1.8rem;
+  display: none;
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
+}
